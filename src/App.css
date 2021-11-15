@@ -1,3 +1,14 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+  background-color: #304e84;
+}
+.navbar{
+  padding: 0px;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +47,35 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  
+  color: yellow;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 18vh;
+}
+form{
+  text-align: center;
+}
+.form-control{
+  width: 70%;
+}
+textarea{
+ 
+  margin: auto;
+}
+button{
+ 
+ justify-content: center;
+ align-items: center;
+ margin: 1rem;
+}
+.summary{
+  color: white;
+  margin: 10px 10px 10px 90px;
+  padding: 10px 10px 10px 10px;
+}
+
